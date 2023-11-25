@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2>Detalle de Usuario</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card-body">
+                <div class="list-group">
+                    <li class="list-group-item"> <strong>ID: </strong>{{usuario.id}}</li>
+                    <li class="list-group-item"> <strong>Nombre: </strong>{{usuario.nombre}}</li>
+                    <li class="list-group-item"> <strong>Edad: </strong>{{usuario.edad}}</li>
+                    <li class="list-group-item"> <strong>Tipo de sangre: </strong>{{usuario.sangre}}</li>
+                    <li class="list-group-item"> <strong>Fecha Registro: </strong>{{usuario.fecha_registro | date:'yyyy-MM-dd HH:mm:ss'}}</li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
